@@ -1,0 +1,27 @@
+.clients {
+    background-color: var(--bg-white);
+}
+
+.client-logo-item {
+    padding: 0 15px;
+}
+
+.logo-placeholder {
+    height: 100px;
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    color: var(--color-gray-400);
+    font-weight: var(--font-bold);
+    font-size: var(--text-lg);
+    border: 2px dashed var(--color-gray-200);
+    transition: all var(--transition-base);
+}
+
+.logo-placeholder:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--color-white);
+}
