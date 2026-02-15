@@ -9,6 +9,7 @@ import {
     selectIsMobileMenuOpen,
     selectIsHeaderSticky
 } from '../../features/ui/uiSlice';
+import Logo from './Logo';
 import './Header.css';
 
 const Header = () => {
@@ -46,12 +47,13 @@ const Header = () => {
             name: 'Products',
             path: '/products',
             dropdown: [
-                { name: 'Consumer Electronics', path: '/products/consumer-electronics' },
-                { name: 'Home Appliances', path: '/products/home-appliances' },
-                { name: 'Industrial Equipment', path: '/products/industrial-equipment' },
-                { name: 'Power Solutions', path: '/products/power-solutions' },
-                { name: 'Lighting Solutions', path: '/products/lighting-solutions' },
-                { name: 'Security Systems', path: '/products/security-systems' }
+                { name: 'Lifting Equipments', path: '/products/lifting-equipments-parts' },
+                { name: 'Industrial Steamers', path: '/products/industrial-steamers' },
+                { name: 'Generator Sets', path: '/products/generator-sets' },
+                { name: 'Racking System', path: '/products/racking-system' },
+                { name: 'Batteries & Chargers', path: '/products/batteries-chargers' },
+                { name: 'UPS Systems', path: '/products/ups' },
+                { name: 'Cleaning Machinery', path: '/products/high-pressure-cleaning' }
             ]
         },
         { name: 'Services', path: '/services' },
@@ -63,10 +65,7 @@ const Header = () => {
     return (
         <header className={`header ${isHeaderSticky ? 'header-sticky' : ''}`}>
             <div className="container flex justify-between items-center">
-                <Link to="/" className="logo">
-                    <span className="logo-primary">BOLAN</span>
-                    <span className="logo-secondary">TRADERS</span>
-                </Link>
+                <Logo className="header-logo" />
 
                 {/* Desktop Navigation */}
                 <nav className="desktop-nav">

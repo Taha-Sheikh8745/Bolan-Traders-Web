@@ -8,7 +8,7 @@ const Company = () => {
             <section className="bg-dark py-20 text-white text-center">
                 <div className="container">
                     <h1 className="text-5xl font-bold mb-4">Our Company</h1>
-                    <p className="text-gray-400">Leading the industry with excellence and innovation since 1995.</p>
+                    <p className="text-gray-400">The tradition of excellence since 2006.</p>
                 </div>
             </section>
 
@@ -18,16 +18,16 @@ const Company = () => {
                     <div className="grid grid-cols-2 gap-16 items-center">
                         <div>
                             <h5 className="text-primary font-bold uppercase mb-4">Our Journey</h5>
-                            <h2 className="mb-6">Over <span className="text-secondary">25 Years</span> of Progress</h2>
+                            <h2 className="mb-6">Over <span className="text-secondary">17 Years</span> of Excellence</h2>
                             <p className="mb-6 leading-relaxed">
-                                Bolan Traders' first division was established in 1995 in Karachi, Pakistan, with a dedicated team of 3 members focused on supplying motive power and backup power solutions.
+                                BOLAN TRADERS, the tradition of excellence, is a young independent company. Firmly rooted in a heritage of innovation and excellence, founded on 1st October, 2006.
                             </p>
                             <p className="mb-6 leading-relaxed">
-                                Over the decades, we have expanded our horizon to become a full-stack industrial and electronics solution provider. Today, we serve thousands of clients across Pakistan with offices in Rawalpindi, Karachi, and Islamabad.
+                                We work in different derived areas including Lifting Equipment, Industrial Steamers, Generator Sets, Racking Systems, and High Pressure Cleaning Machinery. We are dedicated to providing the most complete range of quality solutions to cater to the wide spectrum of customers.
                             </p>
                             <div className="flex gap-8 mt-10">
                                 <div className="flex flex-col">
-                                    <span className="text-4xl font-bold text-primary">1995</span>
+                                    <span className="text-4xl font-bold text-primary">2006</span>
                                     <p className="text-sm font-semibold uppercase tracking-widest mt-2">Founded</p>
                                 </div>
                                 <div className="flex flex-col">

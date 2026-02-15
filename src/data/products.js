@@ -1,279 +1,114 @@
 export const productsData = [
-    // Consumer Electronics
+    // Lifting Equipments & Parts
     {
         id: 1,
-        name: 'Smart LED TV 55"',
-        category: 'consumer-electronics',
-        description: '4K Ultra HD Smart LED Television with HDR and built-in streaming apps',
-        image: '/assets/images/products/smart-tv.jpg',
+        name: 'Fork Lifter',
+        category: 'lifting-equipments-parts',
+        shortDescription: 'Material Handling Equipment & Backup Spares',
+        description: 'Complete range of material handling equipment including manual and electric stackers, pallet trucks, and fork lifters with full backup spares support.',
+        image: '/assets/images/products/fork-lift.jpg',
         features: [
-            '4K Ultra HD Resolution',
-            'HDR10+ Support',
-            'Smart TV with Android OS',
-            'Voice Control Compatible',
-            'Multiple HDMI & USB Ports'
-        ],
-        specifications: {
-            screenSize: '55 inches',
-            resolution: '3840 x 2160',
-            refreshRate: '60Hz',
-            connectivity: 'WiFi, Bluetooth, HDMI, USB'
-        }
+            'Material Handling Equipment',
+            'Hand Pallet Trucks',
+            'Electric Pedestrian Operated Stackers',
+            'Fork Lifters Cards Repairing',
+            'Backup Spares for All Models'
+        ]
     },
+    // Industrial Steamers
     {
         id: 2,
-        name: 'Premium Sound System',
-        category: 'consumer-electronics',
-        description: 'High-fidelity home theater sound system with wireless subwoofer',
-        image: '/assets/images/products/sound-system.jpg',
+        name: 'Industrial Steamer',
+        category: 'industrial-steamers',
+        shortDescription: 'Jiffy Steamer Company, LLC - World\'s Oldest & Largest',
+        description: 'Jiffy constructed 14 models of steamers used in Travel, Residential, and Commercial industries. Steam-Car Washer can wash engine and dirt without surface damage.',
+        image: '/assets/images/products/steamer.jpg',
         features: [
-            '5.1 Surround Sound',
-            'Wireless Subwoofer',
-            'Bluetooth Connectivity',
-            'Multiple Input Options',
-            'Remote Control'
-        ],
-        specifications: {
-            power: '1000W',
-            channels: '5.1',
-            connectivity: 'Bluetooth, HDMI ARC, Optical'
-        }
+            '14 Models available',
+            'Steam-Car Washer for high-class sedans',
+            'No surface coating damage',
+            'Ideal for engine bay cleaning',
+            'Commercial & Residential usage'
+        ]
     },
+    // Generator Sets
     {
         id: 3,
-        name: 'Smart Home Hub',
-        category: 'consumer-electronics',
-        description: 'Central control system for all your smart home devices',
-        image: '/assets/images/products/smart-hub.jpg',
+        name: 'Generator Sets',
+        category: 'generator-sets',
+        shortDescription: 'Domestic and Industrial Generator Sets',
+        description: 'Dealing in all types of generators, overhauling, service contracts, and backup spares.',
+        image: '/assets/images/products/generators.jpg',
         features: [
-            'Voice Assistant Integration',
-            'Multi-Device Control',
-            'Energy Monitoring',
-            'Security Integration',
-            'Mobile App Control'
-        ],
-        specifications: {
-            compatibility: 'Alexa, Google Home, HomeKit',
-            connectivity: 'WiFi, Zigbee, Z-Wave'
-        }
+            'MOSA GE15 super silent set',
+            'Aksa AJD70 John Deere engine',
+            'Mosa GE85PSX Perkins engine',
+            'SDMO J165 John Deere engine',
+            'Caterpillar GEP275 Perkins engine'
+        ]
     },
-
-    // Home Appliances
+    // Racking System
     {
         id: 4,
-        name: 'French Door Refrigerator',
-        category: 'home-appliances',
-        description: 'Energy-efficient refrigerator with smart cooling technology',
-        image: '/assets/images/products/refrigerator.jpg',
+        name: 'Racking System',
+        category: 'racking-system',
+        shortDescription: 'Complete range of quality storage solutions',
+        description: 'Comprehensive range of material handling equipment to cater to a wide spectrum of customers.',
+        image: '/assets/images/products/racking.jpg',
         features: [
-            'Inverter Compressor',
-            'Multi-Air Flow System',
-            'LED Lighting',
-            'Water Dispenser',
-            'Energy Star Certified'
-        ],
-        specifications: {
-            capacity: '600L',
-            energyRating: 'A++',
-            dimensions: '180cm x 90cm x 70cm'
-        }
+            'Pallet Racking & Accessories',
+            'Selective Racking',
+            'Drive In / Multi-Tier',
+            'Long Span / Mobile Pallet',
+            'Boltless Rack / Shelf System'
+        ]
     },
+    // Batteries & Chargers
     {
         id: 5,
-        name: 'Front Load Washing Machine',
-        category: 'home-appliances',
-        description: 'Automatic washing machine with multiple wash programs',
-        image: '/assets/images/products/washing-machine.jpg',
+        name: 'Batteries & Chargers',
+        category: 'batteries-chargers',
+        shortDescription: 'Traction Batteries for Electrically Operated Equipment',
+        description: 'High-quality traction batteries and all types of battery chargers for industrial and domestic use.',
+        image: '/assets/images/products/batteries.jpg',
         features: [
-            'Inverter Motor',
-            '14 Wash Programs',
-            'Steam Wash Function',
-            'Child Lock',
-            'Delay Start Timer'
-        ],
-        specifications: {
-            capacity: '9kg',
-            spinSpeed: '1400 RPM',
-            energyRating: 'A+++'
-        }
+            'Traction Batteries',
+            'Electrically Operated Equipment batteries',
+            'All types of Battery Chargers',
+            'High reliability',
+            'Long service life'
+        ]
     },
+    // UPS
     {
         id: 6,
-        name: 'Split Air Conditioner',
-        category: 'home-appliances',
-        description: 'Energy-efficient inverter AC with smart temperature control',
-        image: '/assets/images/products/air-conditioner.jpg',
-        features: [
-            'Inverter Technology',
-            'Turbo Cooling',
-            'Auto Clean Function',
-            'Sleep Mode',
-            'Remote Control'
-        ],
-        specifications: {
-            capacity: '1.5 Ton',
-            energyRating: '5 Star',
-            coverage: 'Up to 150 sq ft'
-        }
-    },
-
-    // Industrial Equipment
-    {
-        id: 7,
-        name: 'Diesel Generator 50KVA',
-        category: 'industrial-equipment',
-        description: 'Heavy-duty diesel generator for industrial applications',
-        image: '/assets/images/products/generator.jpg',
-        features: [
-            'Automatic Start',
-            'Fuel Efficient Engine',
-            'Sound Proof Canopy',
-            'Digital Control Panel',
-            'Overload Protection'
-        ],
-        specifications: {
-            power: '50 KVA',
-            fuelType: 'Diesel',
-            voltage: '380V / 220V'
-        }
-    },
-    {
-        id: 8,
-        name: 'Industrial Air Compressor',
-        category: 'industrial-equipment',
-        description: 'High-performance air compressor for industrial use',
-        image: '/assets/images/products/compressor.jpg',
-        features: [
-            'Oil-Free Operation',
-            'Low Noise Level',
-            'Automatic Pressure Control',
-            'Heavy Duty Motor',
-            'Large Air Tank'
-        ],
-        specifications: {
-            pressure: '8 Bar',
-            tankCapacity: '500L',
-            power: '15 HP'
-        }
-    },
-
-    // Power Solutions
-    {
-        id: 9,
-        name: 'Online UPS 10KVA',
-        category: 'power-solutions',
-        description: 'True online UPS for critical power protection',
+        name: 'UPS Systems',
+        category: 'ups',
+        shortDescription: 'Domestic, Industrial and Solar UPS Systems',
+        description: 'Providing reliable power backup solutions for rural and urban areas including solar integrated systems.',
         image: '/assets/images/products/ups.jpg',
         features: [
-            'True Online Technology',
-            'Pure Sine Wave Output',
-            'LCD Display',
-            'Battery Backup',
-            'Surge Protection'
-        ],
-        specifications: {
-            capacity: '10 KVA',
-            backupTime: '30-60 minutes',
-            inputVoltage: '220V AC'
-        }
+            'Domestic UPS',
+            'Industrial UPS',
+            'Solar UPS Systems',
+            'Rural Area specialized solutions',
+            'High-efficiency backup'
+        ]
     },
+    // High Pressure Cleaning
     {
-        id: 10,
-        name: 'Solar Inverter 5KW',
-        category: 'power-solutions',
-        description: 'Hybrid solar inverter with battery charging',
-        image: '/assets/images/products/inverter.jpg',
+        id: 7,
+        name: 'Cleaning Machinery',
+        category: 'high-pressure-cleaning',
+        shortDescription: 'Mazzoni S.r.l. Industrial Cleaning Machinery',
+        description: 'Mazzoni S.r.l. manufacture machinery, pumps and other components for industrial and professional cleaning.',
+        image: '/assets/images/products/cleaning-machinery.jpg',
         features: [
-            'MPPT Technology',
-            'Grid-Tie Capability',
-            'Battery Charging',
-            'LCD Monitoring',
-            'Overload Protection'
-        ],
-        specifications: {
-            power: '5 KW',
-            efficiency: '97%',
-            batteryVoltage: '48V'
-        }
-    },
-
-    // Lighting Solutions
-    {
-        id: 11,
-        name: 'LED Panel Light',
-        category: 'lighting-solutions',
-        description: 'Energy-efficient LED panel for commercial spaces',
-        image: '/assets/images/products/led-panel.jpg',
-        features: [
-            'Energy Efficient',
-            'Long Lifespan',
-            'Uniform Light Distribution',
-            'Easy Installation',
-            'Low Heat Emission'
-        ],
-        specifications: {
-            power: '40W',
-            lumens: '4000 lm',
-            colorTemperature: '6500K'
-        }
-    },
-    {
-        id: 12,
-        name: 'Smart LED Bulb',
-        category: 'lighting-solutions',
-        description: 'WiFi-enabled smart bulb with color changing',
-        image: '/assets/images/products/smart-bulb.jpg',
-        features: [
-            'WiFi Connectivity',
-            'RGB Color Changing',
-            'Voice Control',
-            'Scheduling',
-            'Energy Saving'
-        ],
-        specifications: {
-            power: '9W',
-            lumens: '800 lm',
-            compatibility: 'Alexa, Google Home'
-        }
-    },
-
-    // Security Systems
-    {
-        id: 13,
-        name: 'IP CCTV Camera System',
-        category: 'security-systems',
-        description: '8-channel IP camera system with NVR',
-        image: '/assets/images/products/cctv.jpg',
-        features: [
-            '4MP Resolution',
-            'Night Vision',
-            'Motion Detection',
-            'Remote Viewing',
-            'Weather Resistant'
-        ],
-        specifications: {
-            channels: '8',
-            resolution: '4MP',
-            storage: '2TB HDD'
-        }
-    },
-    {
-        id: 14,
-        name: 'Access Control System',
-        category: 'security-systems',
-        description: 'Biometric access control with card reader',
-        image: '/assets/images/products/access-control.jpg',
-        features: [
-            'Fingerprint Scanner',
-            'RFID Card Reader',
-            'Time Attendance',
-            'Network Connectivity',
-            'Backup Battery'
-        ],
-        specifications: {
-            capacity: '3000 users',
-            connectivity: 'TCP/IP, USB',
-            authentication: 'Fingerprint, Card, PIN'
-        }
-    },
+            'High Pressure Cleaners',
+            'Industrial Grade Pumps',
+            'Professional Cleaning Equipment',
+            'World market leading machinery',
+            'Genuine Italian components'
+        ]
+    }
 ];

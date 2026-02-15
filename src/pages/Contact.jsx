@@ -6,18 +6,23 @@ const Contact = () => {
     const contactInfo = [
         {
             icon: <FaMapMarkerAlt />,
-            title: 'Head Office',
-            details: ['Peshawar Road, Rawalpindi, Pakistan']
+            title: 'Head Office (Rawalpindi)',
+            details: ['Suit # 13, Ground Floor, National Business Centre, Shamsabad Murree Road, Rawalpindi.']
+        },
+        {
+            icon: <FaMapMarkerAlt />,
+            title: 'Karachi Office',
+            details: ['Plot No. 1-K 17, Faqir Mohammad Durra Khan Road, Usmanabad, Karachi.']
         },
         {
             icon: <FaPhone />,
-            title: 'Phone Numbers',
-            details: ['+92 51 1234567', '+92 300 8765432']
+            title: 'Contact Details',
+            details: ['Ph: 021- 6018969', 'Fax: 021- 2722505']
         },
         {
             icon: <FaEnvelope />,
             title: 'Email Address',
-            details: ['info@bolantraders.com.pk', 'sales@bolantraders.com.pk']
+            details: ['bolan_traders@yahoo.com']
         },
         {
             icon: <FaClock />,
