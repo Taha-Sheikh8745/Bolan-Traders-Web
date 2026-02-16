@@ -64,12 +64,12 @@ const Header = () => {
 
     return (
         <header className={`header ${isHeaderSticky ? 'header-sticky' : ''}`}>
-            <div className="container flex justify-between items-center">
+            <div className="header-container container">
                 <Logo className="header-logo" />
 
                 {/* Desktop Navigation */}
                 <nav className="desktop-nav">
-                    <ul className="flex gap-8">
+                    <ul className="nav-list">
                         {navLinks.map((link) => (
                             <li
                                 key={link.name}
@@ -98,7 +98,7 @@ const Header = () => {
                     </ul>
                 </nav>
 
-                <div className="header-actions flex items-center gap-4">
+                <div className="header-actions">
                     <button className="search-btn"><FaSearch /></button>
                     <Link to="/contact" className="quote-btn">Request Quote</Link>
                     <button
